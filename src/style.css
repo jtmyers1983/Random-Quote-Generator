@@ -1,0 +1,84 @@
+@import
+"https://fonts.googleapis.com/css?family=Shadows+Into+Light";
+
+body {
+  background: #1A1A1D;
+}
+
+.quote-box {
+  margin: 25%;
+  margin-top: 10em;
+  padding: 5%;
+  background: #1A1A1D;
+  animation: glow-both 100s infinite;
+}
+
+.content {
+  font-family: 'Shadows Into Light', serif;
+  color: #F8F8F8;
+  font-size: 3.2rem;
+  text-shadow: 0px 0px 10px #C3073F, 0px 0px 15px #3500D3, 0px 0px 9px #F8F8F8;
+  animation: glow 100s infinite;
+}
+
+.quote-icon {
+  font-size: 50px;
+}
+
+.post-link {
+  margin: 10%;
+  font-size: 40px;
+  color: #F8F8F8;
+  animation: glow 100s infinite;
+}
+
+.btn-default {
+  background-color: #1A1A1D;
+  font-size: 25px;
+  margin-top: 10%;
+  border: 1px solid #3500D3;
+  color: #F8F8F8;
+  animation: glow-both 100s infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 9px #2965f1, 0px 0px 15px #3500D3, 0px 0px 5px #264de4;
+  }
+  50% {
+    text-shadow: 0px 0px 9px #d32f2f, 0px 0px 15px #C3073F, 0px 0px 5px #d50000;
+  }
+  85% {
+    text-shadow: 0px 0px 9px #00BB00, 0px 0px 15px #00EC00, 0px 0px 5px #009100
+  }
+}
+
+@keyframes glow-both {
+  0% {
+    text-shadow: 0px 0px 9px #2965f1, 0px 0px 15px #3500D3, 0px 0px 5px #264de4;
+  }
+  50% {
+    text-shadow: 0px 0px 9px #d32f2f, 0px 0px 15px #C3073F, 0px 0px 5px #d50000;
+  }
+  85% {
+    text-shadow: 0px 0px 9px #00BB00, 0px 0px 15px #00EC00, 0px 0px 5px #009100
+  }
+    0% {
+    box-shadow: 0px 0px 9px #2965f1, 0px 0px 15px #3500D3, 0px 0px 5px #264de4;
+  }
+  50% {
+    box-shadow: 0px 0px 9px #d32f2f, 0px 0px 15px #C3073F, 0px 0px 5px #d50000;
+  }
+  85% {
+    box-shadow: 0px 0px 9px #00BB00, 0px 0px 15px #00EC00, 0px 0px 5px #009100
+  }
+  0% {
+    border: 1px solid #2965f1;
+  }
+  50% {
+    border: 1px solid #C3073F;
+  }
+  85% {
+    border: 1px solid #00BB00;
+  }
+}
